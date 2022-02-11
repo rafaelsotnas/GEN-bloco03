@@ -1,0 +1,55 @@
+* {
+    font-family: Verdana;
+    background-color: blanchedalmond;
+}
+
+/*index.html*/
+.container {
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+#menu li {
+    display: inline;
+    padding: 11px;
+    text-transform: lowercase;
+}
+#menu li a {
+    text-decoration: none;
+}
+#menu li a:hover {
+    color:darkslategray;
+}
+.p-28 {
+    padding:28px;
+}
+label {
+    text-transform: lowercase;
+}
+button {
+    text-transform: lowercase;
+}
+h1 {
+    text-align: center;
+    text-transform: lowercase;
+}
+img {
+    width:56%;
+}
+
+/*contato.html*/
+.tm {
+   width: 43px;
+   height: 43px;
+}
+.p2 {
+    text-transform: lowercase;
+
+}
+.ml-50 {
+    margin-left: 50px;
+}
+h2 {
+    text-transform: lowercase;
+}
